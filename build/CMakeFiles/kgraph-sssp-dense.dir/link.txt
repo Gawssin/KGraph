@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++11 -fopenmp -I ./ligra -march=native -O3 -DOPENMP -DBYTERLE "CMakeFiles/kgraph-sssp-dense.dir/apps/kgraph-sssp-dense.C.o" -o kgraph-sssp-dense 

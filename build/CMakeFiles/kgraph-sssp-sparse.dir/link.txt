@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++11 -fopenmp -I ./ligra -march=native -O3 -DOPENMP -DBYTERLE "CMakeFiles/kgraph-sssp-sparse.dir/apps/kgraph-sssp-sparse.C.o" -o kgraph-sssp-sparse 
