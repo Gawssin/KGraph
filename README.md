@@ -4,7 +4,7 @@
 Organization
 --------
 
-This repository hosts code for KGraph. It is implemented based on **ForkGraph** https://github.com/Xtra-Computing/ForkGraph
+This repository hosts code for KGraph. It is implemented based on [**ForkGraph**](https://github.com/Xtra-Computing/ForkGraph).
 
 
 Compilation
