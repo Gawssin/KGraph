@@ -4,21 +4,21 @@
 Organization
 --------
 
-This repository hosts code for KGraph. It is implemented based on [**ForkGraph**](https://github.com/Xtra-Computing/ForkGraph).
+This repository contains the code for KGraph. It is implemented based on [**ForkGraph**](https://github.com/Xtra-Computing/ForkGraph).
 
 
 Compilation
 --------
 
-Compiler:
-* g++ >= 7.5.0
+**Compiler:**
+* `g++ >= 7.5.0`
 
 
-Build system:
-* CMake >= 3.12
+**Build system:**
+* `CMake >= 3.12`
 
 
-To build:
+**To build:**
 ```sh
 $ cd KGraph/
 $ mkdir build
@@ -52,7 +52,7 @@ $ ./kgraph-app -p <#part> -ps <strategy> -pn <#pivot> -qn <#query> -qf <inSrc> <
 
 ### Specific parameters for each application
 
-| Argument | Application | Description |
+| Argument | Application &emsp &emsp | Description |
 | :-----| :----- | :---- |
 | **-h** | `kgraph-sssp-sparse`<br> `kgraph-sswp-sparse` <br> `kgraph-ssr-sparse` | The heuristic-Based Yielding used in [ForkGraph](https://github.com/Xtra-Computing/ForkGraph). We recomand setting it to 3200 for `Ca` and `Us`, and 204800 for `Eu`. |
 | **-mr** | `kgraph-sssp-dense`<br> `kgraph-sswp-dense` <br> `kgraph-ssr-dense` | The extent of memoization for a pivot. The larger this value is, the more information the pivot will memoize, but it will also consume more memory. [default: 2] |
