@@ -30,7 +30,7 @@ Input Graph Formats
 -----------
 The input graph comprises three files: `<inFile_inter>`, `<inFile_intra>` and `<partFile>`. The `<inFile_inter>` file contains the inter-partition edges, the `<inFile_intra>` file contains the intra-partition edges, and the `<partFile>` file contains the partition information. The number in the i-th line corresponds to the partition ID of the vertex with vertex ID i-1. 
 
-`<inFile_inter>` and `<inFile_intra>` should be in the weighted adjacency graph format used by the [Problem Based Benchmark suite](http://www.cs.cmu.edu/~pbbs/benchmarks/graphIO.html) and [Ligra](https://github.com/jshun/ligra). We provide some example graphs in this format in the [shared Google Drive folder](https://drive.google.com/drive/folders/1GnX9wCb70YSKZZw_c2PYlRcK6YivyZkX?usp=sharing).
+`<inFile_inter>` and `<inFile_intra>` should be in the weighted adjacency graph format used by the [Problem Based Benchmark suite](http://www.cs.cmu.edu/~pbbs/benchmarks/graphIO.html) and [Ligra](https://github.com/jshun/ligra). We provide some example graphs in this format in the [shared OneDrive folder](https://1drv.ms/f/s!Avm-79-w1WHbgZMrEm3hMYBFnwY4vQ?e=JxtXju).
 
 
 Usage
