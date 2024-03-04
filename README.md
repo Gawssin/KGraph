@@ -52,9 +52,9 @@ $ ./kgraph-app -p <#part> -ps <strategy> -pn <#pivot> -qn <#query> -qf <inSrc> <
 
 ### Specific parameters for each application
 
-| Argument | Application &emsp &emsp | Description |
+| Argument | Application&emsp;&emsp;&emsp;&emsp; | Description |
 | :-----| :----- | :---- |
 | **-h** | `kgraph-sssp-sparse`<br> `kgraph-sswp-sparse` <br> `kgraph-ssr-sparse` | The heuristic-Based Yielding used in [ForkGraph](https://github.com/Xtra-Computing/ForkGraph). We recomand setting it to 3200 for `Ca` and `Us`, and 204800 for `Eu`. |
-| **-mr** | `kgraph-sssp-dense`<br> `kgraph-sswp-dense` <br> `kgraph-ssr-dense` | The extent of memoization for a pivot. The larger this value is, the more information the pivot will memoize, but it will also consume more memory. [default: 2] |
-| **-wl** | `kgraph-deepwalk` <br>  `kgraph-ppr` | The walk length. [default: 1000] |
+| **-mr** | `kgraph-sssp-dense`<br> `kgraph-sswp-dense` <br> `kgraph-ssr-dense` | The extent of memoization for a pivot. The larger this value is, the more information the pivot will memoize, but it will also consume more memory. `[default: 2]` |
+| **-wl** | `kgraph-deepwalk` <br>  `kgraph-ppr` | The walk length. `[default: 1000]` |
 | **-ml** | `kgraph-deepwalk` <br>  `kgraph-ppr` | The length of a path memoized by a pivot that starts from itself. We recomand setting it to 4 for road networks and 2 for power-law graphs. |
