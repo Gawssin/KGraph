@@ -208,7 +208,7 @@ void Compute(graph<vertex> &GA, graph<vertex> &GB, int NP, std::vector<int> &piv
       auto &WidestPathWidth = WidestPathWidth_l[qi];
       closestPart[qi][pi] = 0;
 
-      for (int vi = offsetGB[pi]; vi < offsetGB[pi + 1]; vi++)
+      for (int vi : partNodes[pi])
       {
         if (active[qi][vi] == true)
         {
