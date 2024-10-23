@@ -209,7 +209,7 @@ void Compute(graph<vertex> &GA, graph<vertex> &GB, int NP, std::vector<int> &piv
       auto &ShortestPathLen = ShortestPathLen_l[qi];
       closestPart[qi][pi] = INT_MAX;
 
-      for (int vi = offsetGB[pi]; vi < offsetGB[pi + 1]; ++vi)
+      for (int vi : partNodes[pi])
       {
         if (active[qi][vi] == true)
         {
