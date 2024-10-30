@@ -23,6 +23,7 @@ Compilation
 $ cd KGraph/
 $ mkdir build
 $ cd build && cmake ..
+$ make -j
 ```
 
 
