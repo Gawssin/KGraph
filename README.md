@@ -1,4 +1,4 @@
-# KGraph: Concurrent Graph Query Processing with Memoization on Graph
+# KGraph: An Efficient Memoization Engine for Concurrent Graph Query Processing
 
 
 Organization
